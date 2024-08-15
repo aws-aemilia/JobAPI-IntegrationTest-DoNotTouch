@@ -1,0 +1,10 @@
+version: 1
+env:
+  variables:
+    key: value
+frontend:
+  phases:
+    build:
+      commands:
+        - sleep 30
+        - echo "Hello World"
